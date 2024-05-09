@@ -12,6 +12,7 @@ function switchPage(){
     homeBtn.addEventListener('click', () => {
         const content = document.getElementById('content')
         content.innerHTML = ""
+        
         homeLoad()
     })
 
