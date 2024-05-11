@@ -1,0 +1,93 @@
+
+body{
+    background-color: white;
+}
+
+#content{
+   
+}
+
+#menu-title-text{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#menu-title-text h4{
+    font-size: 20px;
+    color: #881e1e;
+    font-weight: lighter;
+    font-family:cursive;
+}
+
+#menu-title-text h3{
+    font-size: 40px;
+    font-weight:800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+
+#trending-items-section{
+    width: 900px;
+    height: 380px;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+#trending-items-section::-webkit-scrollbar{
+    display: none;
+}
+
+#trending-items-section img{
+    width: 325px;
+    height: 380px;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+    border-radius: 20px;
+}
+
+#first-div, #second-div{
+    display: flex;
+    gap: 10px;
+}
+
+
+#gallery-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+}
+#back-btn,#next-btn{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 40px;
+}
+
+#trending-items-section img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#explore-btn{
+    margin-top: 10px;
+    width: 300px;
+    height:70px ;
+    background-color: #f3f659;
+    color: #881e1e;
+    cursor: pointer;
+
+}
+
+#explore-btn:hover{
+    background-color: #881e1e;
+    color: #f3f659;
+}

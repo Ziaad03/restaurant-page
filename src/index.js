@@ -1,6 +1,7 @@
 import homeLoad  from "./webpage";
 import menuLoad  from "./menu";
 import contactLoad  from "./contact";
+import headerLoad  from "./header";
 
 function switchPage(){
     const homeBtn = document.getElementById("home")
@@ -32,5 +33,7 @@ function switchPage(){
 }
 
 
+headerLoad()
 homeLoad()
+switchPage()
 

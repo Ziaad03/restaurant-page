@@ -25,21 +25,17 @@ body{
         
     );
 
-
-
-    
-
 }
 
 
 
 #logo img{
-    width: 243px;
+    width: 230px;
     height: 190px;
 }
 
 #image-content img{
-    width: 430px;
+    width: 400px;
     height: 400px;
     border-radius: 20px;
 
@@ -68,12 +64,9 @@ nav #logo{
 }
 
 button{
-    
-   
-   
     width: 100px;
     height: 30px;
-    font-size: 28px;
+    font-size: 20px;
     cursor: pointer;
     text-align: center;
     background: inherit;
@@ -86,11 +79,9 @@ button{
 }
 
 #content{
-    margin-top: 40px;
+    
    
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    gap: 30px;
+    
     
 }
 
@@ -103,7 +94,7 @@ button{
 }
 
 #text-content h1{
-    font-size: 100px;
+    font-size: 70px;
     color: #881e1e;
     font-weight: lighter;
     font-family: 'arabicFont';
@@ -111,7 +102,7 @@ button{
 
 #text-content p{
     margin-top: -20px;
-    font-size: 32px;
+    font-size: 26px;
     color: #6c5f5f;
 }
 
@@ -128,3 +119,5 @@ button{
     background-color: #881e1e;
     color: #f3f659;
 }
+
+
