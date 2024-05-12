@@ -4,7 +4,7 @@ Live Demo : https://ziaad03.github.io/restaurant-page/
 ## Restaurant Page
 This project is a restaurant homepage built with JavaScript for DOM manipulation, using webpack for bundling and html-webpack-plugin for auto-generating HTML files. It includes multiple tabs for navigation (Home, Contact, and Menu).
 
-Summary
+## Summary
 Setup: Initialized the project with npm and installed webpack.
 Structure: Created src and dist directories, added index.js and index.html.
 Webpack: Configured webpack for bundling JavaScript files.
@@ -14,15 +14,11 @@ Initial Rendering: Created a basic homepage using JavaScript.
 Dynamic Content: Generated content dynamically for each tab.
 Modular Approach: Used separate modules for content generation.
 GitHub Pages Deployment: Set up deployment for the dist directory.
-Technologies
+## Technologies
 JavaScript
 HTML
 CSS (separate file for styling)
 Webpack
 npm
 GitHub Pages
-Lessons
-Practiced DOM manipulation with JavaScript.
-Learned webpack setup and module bundling.
-Implemented dynamic content generation.
-Gained experience in deploying projects with GitHub Pages.
+
